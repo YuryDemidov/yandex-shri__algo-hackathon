@@ -1,0 +1,22 @@
+{
+  "name": "08_algo-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuryDemidov/yandex-shri__algo-hackathon.git"
+  },
+  "author": "Iurii Demidov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuryDemidov/yandex-shri__algo-hackathon/issues"
+  },
+  "homepage": "https://github.com/YuryDemidov/yandex-shri__algo-hackathon#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
