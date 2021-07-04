@@ -10,7 +10,7 @@ function insertsSorting(arr) {
 
     for (let j = 0; j < sorted.length; j++) {
       if (arr[i] < sorted[j]) {
-        sorted.splice(j, 1, arr[i], sorted[j]);
+        sorted.splice(j, 0, arr[i]);
         isMax = false;
         break;
       }
