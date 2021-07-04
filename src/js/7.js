@@ -4,15 +4,13 @@ function reverseSinglyLinkedList(list) {
   let next = list.next;
 
   while (next) {
-    const temp = next.next;
+    next = current.next;
     current.next = previous;
-    next.next = current;
     previous = current;
     current = next;
-    next = temp;
   }
 
-  return current;
+  return previous;
 }
 
 const LINKED_LIST = {
