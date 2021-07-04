@@ -11,6 +11,10 @@ function getPrimeNumbers(max) {
     let isPrime = true;
 
     for (let i = 1; i < primeNumbers.length; i++) {
+      if (primeNumbers[i] > Math.floor(Math.sqrt(num)) + 1) {
+        break;
+      }
+
       if (num % primeNumbers[i] === 0) {
         isPrime = false;
       }
