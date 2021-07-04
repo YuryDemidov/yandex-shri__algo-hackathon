@@ -1,5 +1,5 @@
 function getPrimeNumbers(max) {
-  const primeNumbers = [1, 2];
+  const primeNumbers = [2];
 
   if (max === 2) {
     return primeNumbers;
